@@ -1,0 +1,68 @@
+.sidebar{
+    .widget{
+        margin-bottom: 2.5em;
+        
+        &.redes-sociales{
+            overflow: hidden;
+            a{
+                width: 50%;
+                float: left;
+                text-align: center;
+                background-color: black;
+                color: #fff;
+                padding: 1.25em;
+                &.linkedin{
+                    background-color: rgb(25, 90, 170);
+                }
+                &.github{
+                    background-color: rgb(170, 52, 25);
+                }
+                .icono{
+                    width: 100%;
+                    font-size: 30px;
+                }
+            }
+        }
+        &.boletin{
+            .formulario{
+                background-color: $azul-primario;
+                padding: 1.25em;
+                text-align: center;
+            }
+            label{
+                color: #fff;
+                margin-bottom: 1.25em;
+                display: block;
+                font-weight: normal;
+            }
+            input[type="email"]{
+                color: $gris-claro;
+                text-align: center;
+                padding: 0.65em;
+                font-size: 1.125em;
+                border-radius: 3px;
+                width: 100%;
+                border: none;
+                outline: none;
+                margin-bottom: 1.25em;
+            }
+            input[type="submit"]{
+                padding: 0.4em 1.2em;
+                background-color: $verde;
+                border: none;
+                color: #fff;
+            }
+
+        }
+        .contenedor-ad{
+            text-align: center;
+            width: 100%;
+            a{
+                display: inline-block;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

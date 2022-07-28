@@ -1,0 +1,31 @@
+$fondo: #f2f2f2;
+$azul-primario: #6304ab;
+$azul-secundario: rgb(94, 100, 168);
+$gris-oscuro:#3b3b3b;
+$gris-claro:#909090;
+$texto:"#292929";
+$verde:#48b04d;
+
+$font: 'Work Sans', sans-serif;
+
+$font-size:16px;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: $fondo;
+    font-size: $font-size;
+    font-family: $font;
+}
+.ad{
+    margin-bottom: 1.25em; //20px
+    text-align: center;
+}
+
+
+@import "_header";
+@import "_main";
+@import "_sidebar";
+@import "_footer";
